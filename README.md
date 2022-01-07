@@ -1,7 +1,3 @@
 # sankaku
 
-円盤の上で三角形を描くプログラム
-
-## ライセンス
-
-MIT
+app to draw triangles on a circle
