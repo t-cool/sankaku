@@ -6,9 +6,9 @@
  * Released under the MIT license
  */
 
-var Sankaku = (function(environment) {
+var Triangle = (function(environment) {
 
-// canvas の設定
+// canvas id
 const canvasForTriangle = document.getElementById(environment.canvasId);
 const context = canvasForTriangle.getContext('2d');
 
@@ -174,5 +174,5 @@ return {
 })({
   // 初期化に必要な環境情報
   // HTML 上の canvas の id
-  canvasId: "sankaku",
+  canvasId: "triangle",
 })
